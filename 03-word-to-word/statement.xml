@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<problem
+  package = "ru.ejudge.sample_contest"
+  id = "3"
+  type = "standard">
+  <statement language="ru_RU">
+    <title>Слово в слово</title>
+    <description>
+      <p>Никита написал слово. Второй Никита тоже написал слово. Первый Никита
+решил проверить, сколько раз его слово поместится в слове второго Никиты.
+Помогите Никитам!
+      </p>
+      <p>На стандартный поток ввода подается две строки длиной не больше 1000000.
+Гарантируется, что первая строка меньше второй. На стандартный поток вывода
+напечатайте число вхождений первой строки во вторую (см. примеры).
+      </p>
+    </description>
+  </statement>
+  <examples>
+    <example>
+      <input>key
+keynokeynokey
+      </input>
+      <output>3
+      </output>
+    </example>
+    <example>
+      <input>haha
+hahahahaha
+      </input>
+      <output>2
+      </output>
+    </example>
+  </examples>
+</problem>

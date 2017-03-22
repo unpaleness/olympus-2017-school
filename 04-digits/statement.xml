@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<problem
+  package = "ru.ejudge.sample_contest"
+  id = "4"
+  type = "standard">
+  <statement language="ru_RU">
+    <title>Цифроежка</title>
+    <description>
+      <p>В стране Числяндии завёлся Цифроежка! Он берёт натуральное число N и
+съедает все цифры определённого вида во всех числах от 1 до N включительно.
+Помогите жителям Числяндии посчитать потери!
+      </p>
+      <p>На стандартный поток ввода подается два натуральных числа: N от 1 до
+1000000 и M от 0 до 9. M - цифра, которую Цифроежка съедает. На стандартный
+поток вывода выведите, сколько раз это цифра встречается во всех числах от 1 до
+N включительно.
+      </p>
+    </description>
+  </statement>
+  <examples>
+    <example>
+      <input>10
+1
+      </input>
+      <output>2
+      </output>
+    </example>
+    <example>
+      <input>99
+9
+      </input>
+      <output>20
+      </output>
+    </example>
+  </examples>
+</problem>
