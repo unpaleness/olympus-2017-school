@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<problem
+  package = "ru.ejudge.sample_contest"
+  id = "7"
+  type = "standard">
+  <statement language="ru_RU">
+    <title>Натурально, Фибоначчи!</title>
+    <description>
+      <p>Сколько K различных чисел Фибоначчи принадлежат ряду натуральных чисел
+от M до N?</p>
+      <p>Гарантируется, что M &le; N.</p>
+      <p><b>Входные данные</b></p>
+      <p>M [1..1e18], N [1..1e18].</p>
+      <p><b>Выходные данные</b></p>
+      <p>K.</p>
+    </description>
+  </statement>
+  <examples>
+    <example>
+      <input>4 15</input>
+      <output>3</output>
+    </example>
+  </examples>
+</problem>
