@@ -37,11 +37,6 @@ int main() {
 
   cin >> S >> N;
 
-  // if (S <= 0) {
-  //   cout << 0 << endl;
-  //   return 0;
-  // }
-
   for (int i = 0; i < N; ++i) {
     Ant ant;
     ant.id = i;
@@ -103,15 +98,6 @@ int main() {
 
     T += tRepair;
     S -= dS;
-
-    // cout << endl << "time: " << T << endl;
-    // cout << "v: " << v << endl;
-    // cout << "S: " << S << endl;
-    // cout << "ants:" << endl;
-    // for (auto it : ants) {
-    //   cout << '\t' << it.id << '\t' << it.t << '\t' << it.k << '\t'
-    //        << it.v << '\t' << it.tkv << endl;
-    // }
   }
 
   if (S <= 0.0) {
