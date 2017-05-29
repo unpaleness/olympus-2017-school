@@ -67,7 +67,7 @@ int main()
   for (int j = 0; j < N; ++j)
   {
     for (int i = 0; i < N; ++i)
-      cout << setw(8) << A[j * N + i];
+      cout << ' ' << A[j * N + i];
     cout << endl;
   }
 
